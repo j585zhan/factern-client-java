@@ -28,7 +28,7 @@ Add this dependency to your project's POM:
 <dependency>
     <groupId>com.factern</groupId>
     <artifactId>factern-java-client</artifactId>
-    <version>1.0.SNAPSHOT</version>
+    <version>1.0.21</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -38,7 +38,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.factern:factern-java-client:1.0.SNAPSHOT"
+compile "com.factern:factern-java-client:1.0.21"
 ```
 
 ### Others
@@ -49,7 +49,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/factern-java-client-1.0.SNAPSHOT.jar
+* target/factern-java-client-1.0.21.jar
 * target/lib/*.jar
 
 ## Getting Started
