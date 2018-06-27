@@ -10,7 +10,7 @@ language: java
 #    - secure: "TRBpWTBOkUCUtpTrsY5Z+3Xq5CGr7tUZyBd1sqf+/QFj86xhuilv5i1dPX5WLzI/cwRjgUmS9Imhow7r4lZzRJadlG8OnX9Jq4y39NB+75TYwi/qAgunFIyDlXKdvdD/f0uvU9nKcnByX9J93xZ17FvLazUHe6FqCaYGwLT8WvqTjA45b8m2pbSF72CzRy0N6Qv16TtdMl6rppyBaWvh0ua3J5Z01PQjEFV36ZtliNcHFvHtV70VV4SdIWrlcF2GUxIPhppyJK+WtmZ2NDXQpxDzUWz7Xg0EuHbQ7zPghrGAXzH8Nkrf++3RpUKOAWUZg5/o6v/7CwRdzTg1gOzKkp8sjvUqSXX6gUmHTB47/9zpcdIo3Slqe8G7W9aPJIO7ut8Jr4LKvxyQAGuYRHvjBH73R+2OgArGprPdOj2Tcjbd3CTUQtqicxdUdPZ5Tl0f3wWNOwryOlSOnxCCzkDLIxUw/sy2XRWtpVYgoCEU0QalNT5iI7D2NSc5pSs+xA2D29F0zfHaMFh3+7CEoKS3TcMMIxNnh/bGU0i9Fj2p2BkcETcKjdxEWvVxSPJ5AK+Q6qeyEq8KOhm1+AXaXKWCAoazer4wvLXEcWf0XbkGquNmkWrWG+3QA3sKvJbglWEP0GH64VrIFneMymnWug/Xy3VekNHy0JATIMim/1w6OS8="
 #    - # ^^ GPG_PASSPHRASE
 
-install: mvn install -P sign-artifacts --settings settings.xml
+install: mvn install --settings settings.xml
 
 cache:
   directories:
